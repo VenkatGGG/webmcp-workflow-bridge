@@ -1,0 +1,16 @@
+{
+  "name": "webmcp-workflow-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node scripts/build.mjs",
+    "demo": "node scripts/serve-demo.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.4",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}

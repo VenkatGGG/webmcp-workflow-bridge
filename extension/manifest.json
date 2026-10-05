@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Workflow Bridge",
+  "description": "Teach a UI task through events and expose reviewed workflows through native WebMCP.",
+  "version": "0.1.0",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Workflow Bridge", "default_popup": "popup.html" },
+  "options_page": "studio.html",
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'" }
+}
