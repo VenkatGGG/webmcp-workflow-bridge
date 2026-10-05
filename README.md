@@ -128,4 +128,4 @@ The build inspects bundled module inputs and fails if any runtime source comes f
 - [Longer-term architecture](docs/MASTER_PLAN.md)
 - [Platform research](docs/RESEARCH.md)
 
-No automated test suite has been created. The source is published to a private GitHub repository for this hackathon project.
+No automated test suite has been created. The source is published to a public GitHub repository for this hackathon project.
